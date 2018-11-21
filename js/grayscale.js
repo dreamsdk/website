@@ -14,6 +14,16 @@
       }
     }
   });
+  
+  // Scroll to top button appear
+  $(document).scroll(function() {
+    var scrollDistance = $(this).scrollTop();
+    if (scrollDistance > 100) {
+      $('.scroll-to-top').fadeIn();
+    } else {
+      $('.scroll-to-top').fadeOut();
+    }
+  });
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -39,4 +49,16 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // Modal popup$(function () {
+  $('.portfolio-item').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true
+  });
+  $(document).on('click', '.portfolio-modal-dismiss', function(e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+  
 })(jQuery); // End of use strict

@@ -7,6 +7,7 @@
 @import 'projects.scss';
 @import 'signup.scss';
 @import 'contact.scss';
+@import 'portfolio.scss';
 
 body {
   font-family: 'Nunito';
@@ -36,4 +37,18 @@ a {
 
 footer {
   padding: 5rem 0;
+}
+
+// Scroll to Top Button
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: fade-out($gray-900, 0.5);
+    line-height: 3.1rem;
+  }
 }
