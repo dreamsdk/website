@@ -207,7 +207,7 @@
   }
 }
 
-.signup-section {
+.help-section {
   padding: 0;
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#f8f9fa), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
@@ -218,7 +218,7 @@
   background-size: auto;
 }
 
-.signup-section .form-inline input {
+.help-section .form-inline input {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
