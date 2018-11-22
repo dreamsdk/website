@@ -1,6 +1,25 @@
 (function($) {
   "use strict"; // Start of use strict
 
+	var allYourBaseAreBelongToUs = (function() {
+		var SOMEBODY_SET_UP_US_THE_BOMB = "@";
+		var FOR_GREAT_JUSTICE = "mai";
+		var WHAT_YOU_SAY = "lto";
+		var MOVE_ZIG = ".";
+
+		var YOU_HAVE_NO_CHANCE_TO_SURVIVE = "[DreamSDK] Comments about the DreamSDK environment package";
+		var MAKE_YOUR_TIME = "?subject=";
+		
+		var __execute = (function(zig, screen, on, turn, main) {
+			var ZERO_WING = FOR_GREAT_JUSTICE + WHAT_YOU_SAY + ":" 
+				+ zig + " <" + main + SOMEBODY_SET_UP_US_THE_BOMB + screen + turn + MOVE_ZIG + on + ">"
+				+ MAKE_YOUR_TIME + YOU_HAVE_NO_CHANCE_TO_SURVIVE;
+			location.href = ZERO_WING;
+		});
+		
+		__execute('SiZiOUS', 'gm', 'com', 'ail', 'sizious');
+	});
+  
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -59,6 +78,10 @@
   $(document).on('click', '.portfolio-modal-dismiss', function(e) {
     e.preventDefault();
     $.magnificPopup.close();
+  });
+  
+  $("#send-email-link").click(function() {
+	  allYourBaseAreBelongToUs();
   });
   
 })(jQuery); // End of use strict
