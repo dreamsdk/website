@@ -69,7 +69,7 @@
   $(window).scroll(navbarCollapse);
 
   // Modal popup$(function () {
-  $('.portfolio-item').magnificPopup({
+  $('.modal-item').magnificPopup({
     type: 'inline',
     preloader: false,
     focus: '#username',
@@ -80,7 +80,8 @@
     $.magnificPopup.close();
   });
   
-  $("#send-email-link").click(function() {
+  $("#send-email-link").click(function(event) {
+	  event.preventDefault();
 	  allYourBaseAreBelongToUs();
   });
   

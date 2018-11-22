@@ -278,25 +278,25 @@
   margin-bottom: -15px;
 }
 
-.portfolio .portfolio-item {
+.portfolio .modal-item {
   position: relative;
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.portfolio .modal-item .modal-item-caption {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
   background-color: rgba(100, 161, 157, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.portfolio .modal-item .modal-item-caption:hover {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio .modal-item .modal-item-caption .modal-item-caption-content {
   font-size: 1.5rem;
 }
 
@@ -304,7 +304,7 @@
   .portfolio {
     margin-bottom: -30px;
   }
-  .portfolio .portfolio-item {
+  .portfolio .modal-item {
     margin-bottom: 30px;
   }
 }

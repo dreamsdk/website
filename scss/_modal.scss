@@ -1,12 +1,12 @@
 // Styling for the portfolio section
 .portfolio {
   margin-bottom: -15px;
-  .portfolio-item {
+  .modal-item {
     position: relative;
     display: block;
     max-width: 25rem;
     margin-bottom: 15px;
-    .portfolio-item-caption {
+    .modal-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
@@ -15,14 +15,14 @@
       &:hover {
         opacity: 1;
       }
-      .portfolio-item-caption-content {
+      .modal-item-caption-content {
         font-size: 1.5rem;
       }
     }
   }
   @media (min-width: 576px) {
     margin-bottom: -30px;
-    .portfolio-item {
+    .modal-item {
       margin-bottom: 30px;
     }
   }
