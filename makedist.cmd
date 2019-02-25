@@ -20,6 +20,7 @@ copy *.svg %DIST_DIR%
 copy browserconfig.xml %DIST_DIR%
 copy *.html %DIST_DIR%
 copy site.webmanifest %DIST_DIR%
+copy .htaccess %DIST_DIR%
 
 copy img\* %IMG_DIR%
 copy js\*.min.js %JS_DIR%

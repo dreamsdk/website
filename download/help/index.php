@@ -3,5 +3,5 @@
 	$handle = fopen($filename, "r");
 	$release_filename = fread($handle, filesize($filename));
 	fclose($handle);	
-	header("Location: $release_filename");	
+	header("Location: http://dreamsdk.sizious.com/$release_filename");	
 ?>
