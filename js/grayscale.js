@@ -85,4 +85,8 @@
 	  allYourBaseAreBelongToUs();
   });
   
+  $(document).ready(function() {
+	$("#year").html(new Date().getFullYear());
+  });
+  
 })(jQuery); // End of use strict
